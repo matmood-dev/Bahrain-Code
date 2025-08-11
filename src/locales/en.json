@@ -16,10 +16,53 @@
     },
     "sections": {
       "services": "Services",
+      "services-slogan": "Comprehensive solutions covering design, development, and deployment — from idea to product.",
       "servicesDesc": "Full-stack engineering, UI/UX, and cloud ready deployments.",
       "work": "Featured Work",
       "blog": "From the Blog",
       "contact": "Contact Us"
+    },
+    "services": {
+      "web": {
+        "title": "Web Applications",
+        "desc": "Modern, fast, and scalable websites tailored to your needs."
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "desc": "iOS and Android apps with a native-like feel and experience."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Seamless deployments, CI/CD pipelines, and cloud hosting."
+      },
+      "uiux": {
+        "title": "UI/UX & Branding",
+        "desc": "Beautiful, intuitive interfaces with a strong brand identity."
+      },
+      "ecommerce": {
+        "title": "E-Commerce Solutions",
+        "desc": "Online stores that are fast, secure, and easy to manage."
+      },
+      "customApps": {
+        "title": "Custom Applications",
+        "desc": "Tailor-made software to fit unique business needs."
+      },
+      "security": {
+        "title": "Security Solutions",
+        "desc": "Protect your digital assets with advanced security practices."
+      },
+      "data": {
+        "title": "Data & Analytics",
+        "desc": "Gain insights with data tracking, reporting, and dashboards."
+      },
+      "marketing": {
+        "title": "Digital Marketing",
+        "desc": "Boost your online presence and connect with customers."
+      },
+      "seo": {
+        "title": "SEO Optimization",
+        "desc": "Improve rankings and drive more organic traffic."
+      }
     },
     "footer": {
       "rights": "All rights reserved."
