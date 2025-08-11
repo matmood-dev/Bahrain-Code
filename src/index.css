@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* Theme tokens (colors, fonts, etc.) */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Inter, "Noto Sans Arabic", sans-serif;
+
+  /* Brand palette */
+  --color-brand-50:  #fef2f2;
+  --color-brand-100: #fee2e2;
+  --color-brand-200: #fecaca;
+  --color-brand-300: #fca5a5;
+  --color-brand-400: #f87171;
+  --color-brand-500: #ef4444; /* primary */
+  --color-brand-600: #dc2626;
+  --color-brand-700: #b91c1c;
+  --color-brand-800: #991b1b;
+  --color-brand-900: #7f1d1d;
+}
+
+/* Always dark theme */
+:root {
+  /* dark theme colors */
+  --bg: 2 6 23;            /* slate-950 */
+  --fg: 226 232 240;       /* slate-200 */
+  --muted: 148 163 184;    /* slate-400 */
+  --border: 255 255 255;   /* for /10 borders */
+  --card: 255 255 255;     /* used with /5 opacity for glass look */
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

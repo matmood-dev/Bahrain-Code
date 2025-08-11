@@ -1,0 +1,28 @@
+{
+  "home": {
+    "brand": "Bahrain Code",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "work": "Work",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "We build delightful Web & Mobile apps",
+      "subtitle": "Modern, high-quality digital experiences, built with care in Bahrain — designed to engage, inspire, and deliver results.",
+      "ctaPrimary": "Start a project",
+      "ctaSecondary": "See our work"
+    },
+    "sections": {
+      "services": "Services",
+      "servicesDesc": "Full-stack engineering, UI/UX, and cloud ready deployments.",
+      "work": "Featured Work",
+      "blog": "From the Blog",
+      "contact": "Contact Us"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  }
+}
