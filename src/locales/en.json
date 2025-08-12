@@ -7,7 +7,8 @@
       "services": "Services",
       "works": "Works",
       "start-now": "Start Your Project",
-      "contact": "Contact Us"
+      "contact": "Contact Us",
+      "careers": "Careers"
     },
     "hero": {
       "title": "We build delightful Web & Mobile apps",
@@ -65,9 +66,6 @@
         "title": "SEO Optimization",
         "desc": "Improve rankings and drive more organic traffic."
       }
-    },
-    "footer": {
-      "rights": "All rights reserved."
     }
   },
   "about": {
@@ -339,6 +337,206 @@
       "subtitle": "Prefer email or phone? We’re available Sun–Thu.",
       "address": "Manama, Kingdom of Bahrain",
       "hours": "Sun–Thu • 9:00–17:00 (AST)"
+    }
+  },
+  "footer": {
+    "tagline": "Designing and shipping web, mobile, and cloud software for real teams.",
+    "headings": {
+      "company": "Company",
+      "contact": "Contact",
+      "newsletter": "Newsletter"
+    },
+    "links": {
+      "about": "About",
+      "services": "Services",
+      "start": "Start a Project",
+      "contact": "Contact",
+      "careers": "Careers",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "address": "Manama, Kingdom of Bahrain",
+    "newsletter": {
+      "copy": "Occasional updates. No spam, ever.",
+      "placeholder": "Your email",
+      "action": "Subscribe",
+      "thanks": "Thanks! You’re on the list."
+    }
+  },
+  "careers": {
+    "badge": "Careers",
+    "title": "Join the team shipping real products",
+    "subtitle": "We’re a team of designers and engineers building web, mobile, and cloud software for real teams across the region.",
+    "roles": {
+      "badge": "Open roles",
+      "title": "Help us build what’s next",
+      "subtitle": "If you love shipping products and sweating details, you’ll fit right in.",
+      "applyPrompt": "Sounds like you?",
+      "apply": "Apply",
+      "empty": "No roles match your filters.",
+      "fe": {
+        "title": "Frontend Engineer",
+        "dept": "Engineering",
+        "summary": "Own UI engineering across React, TypeScript, and design systems."
+      },
+      "rn": {
+        "title": "React Native Engineer",
+        "dept": "Engineering",
+        "summary": "Ship high-quality mobile apps with offline and background features."
+      },
+      "be": {
+        "title": "Backend Engineer",
+        "dept": "Engineering",
+        "summary": "Build robust APIs, auth, and data pipelines with NestJS & Postgres."
+      },
+      "pm": {
+        "title": "Product Manager",
+        "dept": "Product",
+        "summary": "Lead discovery, roadmaps, and delivery across cross-functional teams."
+      },
+      "location": {
+        "remote": "Remote",
+        "manama": "Manama, Bahrain",
+        "hybrid": "Hybrid"
+      },
+      "type": {
+        "fulltime": "Full-time",
+        "contract": "Contract",
+        "intern": "Internship"
+      }
+    },
+    "filters": {
+      "search": "Search roles…",
+      "dept": "All departments",
+      "location": "All locations"
+    },
+    "benefits": {
+      "badge": "Benefits",
+      "title": "What you’ll get",
+      "remote": {
+        "title": "Remote-friendly",
+        "desc": "Hybrid/remote options and flexible hours."
+      },
+      "learning": {
+        "title": "Learning budget",
+        "desc": "Books, courses, and conferences."
+      },
+      "hardware": {
+        "title": "Great gear",
+        "desc": "Modern laptops and tools you actually need."
+      },
+      "timeoff": {
+        "title": "Time off",
+        "desc": "Generous annual leave and local holidays."
+      },
+      "wellbeing": {
+        "title": "Well-being",
+        "desc": "Healthy, sustainable pace — no heroics."
+      },
+      "comp": {
+        "title": "Competitive comp",
+        "desc": "Fair pay with room to grow."
+      }
+    },
+    "process": {
+      "badge": "Process",
+      "title": "How we hire",
+      "apply": {
+        "title": "Apply",
+        "desc": "Share your CV, links, and a short note."
+      },
+      "exercise": {
+        "title": "Practical exercise",
+        "desc": "A small, real-world task. No gotchas."
+      },
+      "chat": {
+        "title": "Team chat",
+        "desc": "Meet the team and discuss your approach."
+      },
+      "offer": {
+        "title": "Offer",
+        "desc": "We align on scope, growth, and start date."
+      }
+    },
+    "cta": {
+      "title": "Didn’t find a fit?",
+      "subtitle": "We’re always meeting talented people. Send your CV and tell us what you’d like to work on.",
+      "button": "Send your CV"
+    },
+    "details": {
+      "back": "Back to Careers",
+      "respTitle": "What you'll do",
+      "reqTitle": "What you'll bring",
+      "apply": "Apply now",
+      "applyExternal": "Apply on ATS",
+      "contact": "Ask a question",
+      "common": {
+        "resp": {
+          "ownUI": "Own UI features end-to-end with high quality.",
+          "collabDesign": "Collaborate with design and product on user flows.",
+          "testShip": "Ship iteratively with tests and code reviews."
+        },
+        "req": {
+          "gitCi": "Comfortable with Git, reviews, and CI/CD."
+        }
+      },
+      "fe": {
+        "req": {
+          "reactTs": "Strong React + TypeScript experience.",
+          "accessibility": "Care for accessibility and performance."
+        }
+      },
+      "rn": {
+        "resp": {
+          "features": "Build features across iOS/Android with RN.",
+          "performance": "Profile and optimize app performance."
+        },
+        "req": {
+          "rnExpo": "React Native + Expo experience.",
+          "nativeBasics": "Familiar with basic native modules and stores."
+        }
+      },
+      "be": {
+        "resp": {
+          "apis": "Design and implement robust REST/GraphQL APIs.",
+          "security": "Implement auth, RBAC, and hardening.",
+          "observability": "Add logs, metrics, and tracing."
+        },
+        "req": {
+          "nestNode": "Strong NestJS/Node.js skills.",
+          "sql": "Proficient with SQL and data modeling."
+        }
+      },
+      "pm": {
+        "resp": {
+          "discovery": "Lead discovery and define clear outcomes.",
+          "roadmaps": "Maintain roadmaps and stakeholder comms.",
+          "delivery": "Drive delivery and measure impact."
+        },
+        "req": {
+          "comm": "Excellent written and verbal communication.",
+          "metrics": "Comfortable with product metrics and KPIs.",
+          "tools": "Familiar with common PM tools."
+        }
+      }
+    }
+  },
+  "apply": {
+    "badge": "Application",
+    "title": "Apply for",
+    "unknownRole": "Unknown role",
+    "success": "Thanks! We received your application.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "links": "Links (GitHub, Portfolio)",
+      "note": "Short note",
+      "cv": "Attach CV (PDF)",
+      "choose": "Choose file"
+    },
+    "actions": {
+      "submit": "Submit application",
+      "sending": "Sending…"
     }
   }
 }

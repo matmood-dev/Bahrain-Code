@@ -23,6 +23,7 @@ export default function Navbar() {
     { to: "/coming-soon", label: t("home.nav.works") },
     { to: "/start", label: t("home.nav.start-now") },
     { to: "/contact", label: t("home.nav.contact") },
+    { to: "/careers", label: t("home.nav.careers") },
   ];
 
   const linkBase =
