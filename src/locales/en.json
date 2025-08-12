@@ -3,7 +3,8 @@
     "brand": "Bahrain Code",
     "nav": {
       "home": "Home",
-      "about": "About"
+      "about": "About",
+      "services": "Services"
     },
     "hero": {
       "title": "We build delightful Web & Mobile apps",
@@ -166,5 +167,91 @@
     "title": "Page not found",
     "subtitle": "Sorry, the page you’re looking for doesn’t exist or has been moved.",
     "button": "Go back home"
+  },
+  "services": {
+    "badge": "Services",
+    "title": "From idea to production — we ship",
+    "subtitle": "Web, mobile, cloud, and AI — delivered with a focus on speed, reliability, and maintainability.",
+    "list": {
+      "badge": "What we do",
+      "title": "Engineering across the stack",
+      "subtitle": "Pick one service or combine multiple — we adapt to your team and timeline."
+    },
+    "process": {
+      "badge": "Process",
+      "title": "How we work",
+      "discover": {
+        "title": "Discover",
+        "desc": "Workshops, requirements, and prioritization to define clear outcomes."
+      },
+      "design": {
+        "title": "Design",
+        "desc": "UX flows, wireframes, and UI systems with accessibility and RTL in mind."
+      },
+      "build": {
+        "title": "Build",
+        "desc": "Incremental delivery with CI/CD, testing, and observability."
+      },
+      "launch": {
+        "title": "Launch",
+        "desc": "Hardening, monitoring, and a rollout plan for a smooth go-live."
+      }
+    },
+    "engagement": {
+      "badge": "Engagement",
+      "title": "Engagement models",
+      "subtitle": "Choose what fits: flexible iterations, fixed scope, or a dedicated squad.",
+      "tm": {
+        "title": "Time & Materials",
+        "desc": "Flexible scope, billed by time. Great for evolving products."
+      },
+      "fixed": {
+        "title": "Fixed-scope Projects",
+        "desc": "Clear deliverables, timeline, and price for defined requirements."
+      },
+      "squad": {
+        "title": "Product Squad",
+        "desc": "A cross-functional team (PM, design, engineering) embedded with you."
+      }
+    },
+    "cards": {
+      "web": {
+        "title": "Web Applications",
+        "desc": "Responsive, fast, and accessible web platforms built with modern stacks."
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "desc": "Cross-platform apps with React Native: offline, background tasks, deep links."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Docker, CI/CD, monitoring, and zero-downtime deployments."
+      },
+      "api": {
+        "title": "APIs & Integrations",
+        "desc": "REST/GraphQL APIs, third-party integrations, webhooks, auth flows."
+      },
+      "dataai": {
+        "title": "Data & AI",
+        "desc": "Search, analytics, vector DBs, and AI assistants that automate workflows."
+      },
+      "commerce": {
+        "title": "eCommerce",
+        "desc": "Catalogs, checkout, payments, multi-currency, and admin dashboards."
+      },
+      "uiux": {
+        "title": "UI/UX & Design Systems",
+        "desc": "Design systems, RTL, dark mode, and accessible component libraries."
+      },
+      "security": {
+        "title": "Security & Compliance",
+        "desc": "RBAC, audit trails, encryption at rest/in transit, and best practices."
+      }
+    },
+    "cta": {
+      "title": "Ready to ship with confidence?",
+      "subtitle": "Tell us about your product, and we’ll propose a path that fits scope, speed, and budget.",
+      "button": "Start Your Project"
+    }
   }
 }

@@ -24,6 +24,12 @@ export default function Navbar() {
           >
             {t("home.nav.about")}
           </Link>
+          <Link
+            className="hover:text-brand-600 dark:hover:text-brand-300"
+            to="/services"
+          >
+            {t("home.nav.services")}
+          </Link>
         </nav>
         <div className="flex items-center gap-2">
           <LangToggle />
