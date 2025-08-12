@@ -156,10 +156,15 @@
       "platforms": "Platforms delivered",
       "note": "Indicative metrics across recent deployments."
     },
-    "cta":{
+    "cta": {
       "title": "Let’s build your next product",
       "subtitle": "Whether it’s a web platform, a mobile app, or cloud infrastructure — we can help you ship faster with confidence.",
       "button": "Start Your Project"
     }
+  },
+  "notfound": {
+    "title": "Page not found",
+    "subtitle": "Sorry, the page you’re looking for doesn’t exist or has been moved.",
+    "button": "Go back home"
   }
 }
