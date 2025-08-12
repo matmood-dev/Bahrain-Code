@@ -1,8 +1,7 @@
 import { services } from "../../data/services";
 import SectionCard from "../../components/SectionCard";
 
-
-function Services({t}) {
+function Services({ t }: TProp) {
   return (
     <section id="services" className="relative mx-auto max-w-7xl px-4 py-20">
       {/* soft background accents */}

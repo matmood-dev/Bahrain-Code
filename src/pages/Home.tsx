@@ -4,7 +4,7 @@ import Hero from "./HomeComponents/Hero";
 import Services from "./HomeComponents/Services";
 import Work from "./HomeComponents/Work";
 
-export default function Home({ t }) {
+export default function Home({ t }: TProp) {
   return (
     <DefaultLayout>
       <Hero t={t} />

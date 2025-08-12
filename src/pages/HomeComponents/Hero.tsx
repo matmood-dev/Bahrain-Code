@@ -1,4 +1,4 @@
-function Hero({t}) {
+function Hero({ t }: TProp) {
   return (
     <section id="" className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 opacity-70 blur-3xl">
