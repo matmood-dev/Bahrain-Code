@@ -16,8 +16,7 @@ function Work({t}) {
             {t("home.sections.work")}
           </h2>
           <p className="mt-3 text-[rgb(var(--muted))]">
-            {/* short subtitle; add to i18n later if you want */}
-            Selected projects shipped for partners in Bahrain and beyond.
+            {t("home.sections.work-slogan")}
           </p>
         </div>
 
@@ -130,7 +129,7 @@ function Work({t}) {
             href="#contact"
             className="inline-flex items-center rounded-xl px-5 py-3 text-white bg-gradient-to-br from-brand-500 to-brand-700 shadow hover:opacity-95"
           >
-            {t("home.hero.ctaPrimary")}
+            {t("home.sections.work-button")}
           </a>
         </div>
       </section>

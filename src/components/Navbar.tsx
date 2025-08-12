@@ -13,31 +13,31 @@ export default function Navbar() {
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <a
             className="hover:text-brand-600 dark:hover:text-brand-300"
-            href="#home"
+            href="#"
           >
             {t("home.nav.home")}
           </a>
           <a
             className="hover:text-brand-600 dark:hover:text-brand-300"
-            href="#services"
+            href="#"
           >
             {t("home.nav.services")}
           </a>
           <a
             className="hover:text-brand-600 dark:hover:text-brand-300"
-            href="#work"
+            href="#"
           >
             {t("home.nav.work")}
           </a>
           <a
             className="hover:text-brand-600 dark:hover:text-brand-300"
-            href="#blog"
+            href="#"
           >
             {t("home.nav.blog")}
           </a>
           <a
             className="hover:text-brand-600 dark:hover:text-brand-300"
-            href="#contact"
+            href="#"
           >
             {t("home.nav.contact")}
           </a>

@@ -19,7 +19,8 @@
       "services-slogan": "Comprehensive solutions covering design, development, and deployment — from idea to product.",
       "servicesDesc": "Full-stack engineering, UI/UX, and cloud ready deployments.",
       "work": "Featured Work",
-      "blog": "From the Blog",
+      "work-slogan": "Selected projects shipped for partners in Bahrain and beyond.",
+      "work-button": "View All projects",
       "contact": "Contact Us"
     },
     "services": {
