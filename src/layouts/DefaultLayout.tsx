@@ -1,5 +1,6 @@
 // src/layouts/DefaultLayout.tsx
 import Navbar from "../components/Navbar";
+import GoToTop from "../components/GoToTop"; // <-- import our new button
 import { useTranslation } from "react-i18next";
 import { Twitter, Github, Linkedin } from "lucide-react";
 import { useEffect } from "react";
@@ -19,7 +20,10 @@ export default function DefaultLayout({ children }: DefaultLayoutProps) {
   }, [i18n.language]);
 
   return (
-    <div className="min-h-screen flex flex-col" dir={i18n.language === "ar" ? "rtl" : "ltr"}>
+    <div
+      className="min-h-screen flex flex-col"
+      dir={i18n.language === "ar" ? "rtl" : "ltr"}
+    >
       {/* Navbar */}
       <Navbar />
 
@@ -34,7 +38,8 @@ export default function DefaultLayout({ children }: DefaultLayoutProps) {
           }`}
         >
           <p>
-            © {new Date().getFullYear()} {t("home.brand")} — {t("home.footer.rights")}
+            © {new Date().getFullYear()} {t("home.brand")} —{" "}
+            {t("home.footer.rights")}
           </p>
           <div className="flex gap-4">
             <a
@@ -64,6 +69,9 @@ export default function DefaultLayout({ children }: DefaultLayoutProps) {
           </div>
         </div>
       </footer>
+
+      {/* Go to Top button */}
+      <GoToTop />
     </div>
   );
 }
