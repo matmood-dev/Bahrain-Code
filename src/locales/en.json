@@ -253,5 +253,10 @@
       "subtitle": "Tell us about your product, and we’ll propose a path that fits scope, speed, and budget.",
       "button": "Start Your Project"
     }
+  },
+  "comingSoon": {
+    "title": "Coming Soon",
+    "subtitle": "We’re working hard to bring you something amazing. Stay tuned!",
+    "backHome": "Back to Home"
   }
 }
