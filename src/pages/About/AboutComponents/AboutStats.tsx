@@ -1,9 +1,9 @@
 export default function AboutStats({ t }: TProp) {
   const stats = [
-    { label: t("about.stats.uptime", "Uptime (last 12m)"), value: "100%" },
-    { label: t("about.stats.deploys", "Deploys / month"), value: "40+" },
-    { label: t("about.stats.clients", "Clients served"), value: "30+" },
-    { label: t("about.stats.platforms", "Platforms delivered"), value: "Web • Mobile • Cloud" },
+    { label: t("about.stats.uptime"), value: "100%" },
+    { label: t("about.stats.deploys"), value: "40+" },
+    { label: t("about.stats.clients"), value: "30+" },
+    { label: t("about.stats.platforms"), value: "Web • Mobile" },
   ];
 
   return (
@@ -13,14 +13,16 @@ export default function AboutStats({ t }: TProp) {
           {stats.map((s, i) => (
             <div key={i} className="text-center">
               <div className="text-3xl font-extrabold">{s.value}</div>
-              <div className="mt-1 text-sm text-[rgb(var(--muted))]">{s.label}</div>
+              <div className="mt-1 text-sm text-[rgb(var(--muted))]">
+                {s.label}
+              </div>
             </div>
           ))}
         </div>
       </div>
 
       <div className="mt-6 text-center text-sm text-[rgb(var(--muted))]">
-        {t("about.stats.note", "Indicative metrics across recent deployments.")}
+        {t("about.stats.note")}
       </div>
     </section>
   );

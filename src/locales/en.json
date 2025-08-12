@@ -65,5 +65,101 @@
     "footer": {
       "rights": "All rights reserved."
     }
+  },
+  "about": {
+    "badge": "About",
+    "title": "Software, Engineered For Real Teams",
+    "subtitle": "We design, build, and ship web apps, mobile apps, cloud platforms, and AI-powered tools. From idea to production, we partner with you end-to-end.",
+    "story": {
+      "title": "Our Story",
+      "p1": "Founded in Bahrain, we started Bahrain Code to build practical software that teams actually enjoy using—fast, secure, and maintainable.",
+      "p2": "Today we ship across the stack: responsive web apps, native-quality mobile apps, cloud-native backends, and data/AI integrations that unlock real outcomes."
+    },
+    "capabilities": {
+      "badge": "Capabilities",
+      "title": "What we build",
+      "subtitle": "End-to-end product development: discovery, design, engineering, and delivery.",
+      "web": {
+        "title": "Web Applications",
+        "desc": "High-performance, responsive web apps with modern stacks and clean architecture."
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "desc": "Cross-platform mobile with React Native: offline support, background audio, deep links."
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "desc": "Dockerized services, CI/CD pipelines, observability, and zero-downtime deploys."
+      },
+      "api": {
+        "title": "APIs & Integrations",
+        "desc": "REST/GraphQL APIs, third-party integrations, webhooks, and authentication flows."
+      },
+      "dataai": {
+        "title": "Data & AI",
+        "desc": "Analytics pipelines, vector search, AI assistants, and automation tooling."
+      },
+      "commerce": {
+        "title": "eCommerce",
+        "desc": "Product catalogs, checkout, payments, and admin dashboards built for scale."
+      },
+      "uiux": {
+        "title": "UI/UX & Design Systems",
+        "desc": "Accessible design, RTL support, dark mode, and reusable component libraries."
+      },
+      "support": {
+        "title": "Maintenance & Support",
+        "desc": "SLAs, performance tuning, security hardening, and ongoing feature delivery."
+      }
+    },
+    "values": {
+      "badge": "Values",
+      "title": "What we stand for",
+      "subtitle": "Principles that shape our product, culture, and delivery.",
+      "craft": {
+        "title": "Craft over clutter",
+        "desc": "We ship clean, testable code and obsess over the small things that make big differences."
+      },
+      "trust": {
+        "title": "Trust by design",
+        "desc": "Security, reliability, and observability are built in — not bolted on."
+      },
+      "focus": {
+        "title": "Outcomes > features",
+        "desc": "Every sprint centers on measurable impact for your users and business."
+      },
+      "care": {
+        "title": "Care for people",
+        "desc": "We design inclusive experiences — fast, accessible, and RTL-friendly."
+      }
+    },
+    "timeline": {
+      "badge": "Timeline",
+      "title": "From proof to platform",
+      "2023": {
+        "title": "Prototypes & pilots",
+        "desc": "Shipped first production web and mobile pilots; hardened auth and RBAC."
+      },
+      "2024": {
+        "title": "Scale & reliability",
+        "desc": "Containerized services, CI/CD, monitoring, and zero-downtime releases."
+      },
+      "2025": {
+        "title": "AI & automation",
+        "desc": "Integrated AI features for search, insights, and workflow automation."
+      }
+    },
+    "stats": {
+      "uptime": "Uptime (last 12m)",
+      "deploys": "Deploys / month",
+      "clients": "Clients served",
+      "platforms": "Platforms delivered",
+      "note": "Indicative metrics across recent deployments."
+    },
+    "cta":{
+      "title": "Let’s build your next product",
+      "subtitle": "Whether it’s a web platform, a mobile app, or cloud infrastructure — we can help you ship faster with confidence.",
+      "button": "Start Your Project"
+    }
   }
 }

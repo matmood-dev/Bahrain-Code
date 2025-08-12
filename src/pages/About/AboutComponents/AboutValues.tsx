@@ -2,35 +2,23 @@ export default function AboutValues({ t }: TProp) {
   const items = [
     {
       key: "craft",
-      title: t("about.values.craft.title", "Craft over clutter"),
-      desc: t(
-        "about.values.craft.desc",
-        "We ship clean, testable code and obsess over the small things that make big differences."
-      ),
+      title: t("about.values.craft.title"),
+      desc: t("about.values.craft.desc"),
     },
     {
       key: "trust",
-      title: t("about.values.trust.title", "Trust by design"),
-      desc: t(
-        "about.values.trust.desc",
-        "Security, reliability, and observability are built in — not bolted on."
-      ),
+      title: t("about.values.trust.title"),
+      desc: t("about.values.trust.desc"),
     },
     {
       key: "focus",
-      title: t("about.values.focus.title", "Outcomes > features"),
-      desc: t(
-        "about.values.focus.desc",
-        "Every sprint centers on measurable impact for your users and business."
-      ),
+      title: t("about.values.focus.title"),
+      desc: t("about.values.focus.desc"),
     },
     {
       key: "care",
-      title: t("about.values.care.title", "Care for people"),
-      desc: t(
-        "about.values.care.desc",
-        "We design inclusive experiences — fast, accessible, and RTL-friendly."
-      ),
+      title: t("about.values.care.title"),
+      desc: t("about.values.care.desc"),
     },
   ];
 
@@ -38,16 +26,13 @@ export default function AboutValues({ t }: TProp) {
     <section className="relative mx-auto max-w-7xl px-4 py-16">
       <div className="max-w-3xl mx-auto text-center">
         <span className="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium tracking-wide border border-white/10 bg:white/5 bg-white/5">
-          {t("about.values.badge", "Values")}
+          {t("about.values.badge")}
         </span>
         <h2 className="mt-3 text-3xl md:text-4xl font-extrabold">
-          {t("about.values.title", "What we stand for")}
+          {t("about.values.title")}
         </h2>
         <p className="mt-3 text-[rgb(var(--muted))]">
-          {t(
-            "about.values.subtitle",
-            "Principles that shape our product, culture, and delivery."
-          )}
+          {t("about.values.subtitle")}
         </p>
       </div>
 

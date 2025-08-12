@@ -8,16 +8,13 @@ export default function AboutHero({ t }: TProp) {
 
       <div className="mx-auto max-w-7xl px-4 py-20 md:py-28 text-center">
         <span className="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium tracking-wide border border-white/10 bg-white/5">
-          {t("about.badge", "About")}
+          {t("about.badge")}
         </span>
         <h1 className="mt-3 text-4xl md:text-5xl font-extrabold leading-tight">
-          {t("about.title", "Software, engineered for real teams")}
+          {t("about.title")}
         </h1>
         <p className="mt-4 text-lg text-[rgb(var(--muted))] mx-auto max-w-3xl">
-          {t(
-            "about.subtitle",
-            "We design, build, and ship web apps, mobile apps, cloud platforms, and AI-powered tools. From idea to production, we partner with you end-to-end."
-          )}
+          {t("about.subtitle")}
         </p>
       </div>
     </section>

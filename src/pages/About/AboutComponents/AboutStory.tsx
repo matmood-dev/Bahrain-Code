@@ -26,14 +26,24 @@ export default function AboutStory({ t }: TProp) {
         </div>
 
         <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
-          <ul className="space-y-3 text-sm text-[rgb(var(--muted))]">
-            <li>• {t("about.story.list.0", "Web: React, Vite, Next.js")}</li>
-            <li>• {t("about.story.list.1", "Mobile: React Native, Expo")}</li>
-            <li>• {t("about.story.list.2", "Backend: NestJS, Node, Go")}</li>
-            <li>• {t("about.story.list.3", "Cloud & DevOps: Docker, CI/CD")}</li>
-            <li>• {t("about.story.list.4", "Data & AI: integrations, LLM tooling")}</li>
-            <li>• {t("about.story.list.5", "Security, RBAC, audit trails")}</li>
-          </ul>
+          <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 items-center justify-items-center">
+            <img src="/logos/react.svg" alt="React" className="h-10 w-auto" />
+            <img src="/logos/python.svg" alt="Python" className="h-10 w-auto" />
+            <img src="/logos/nestjs.svg" alt="NestJS" className="h-10 w-auto" />
+            <img
+              src="/logos/nodejs.svg"
+              alt="Node.js"
+              className="h-10 w-auto"
+            />
+            <img src="/logos/go.svg" alt="Go" className="h-10 w-auto" />
+            <img src="/logos/docker.svg" alt="Docker" className="h-10 w-auto" />
+            <img src="/logos/openai.svg" alt="AI" className="h-10 w-auto" />
+            <img src="/logos/apple.svg" alt="Apple" className="h-10 w-auto" />
+            <img src="/logos/android.svg" alt="Android" className="h-10 w-auto" />
+            <img src="/logos/net.svg" alt="Dot Net" className="h-10 w-auto" />
+            <img src="/logos/java.svg" alt="Java" className="h-10 w-auto" />
+            <img src="/logos/typescript.svg" alt="TypeScript" className="h-10 w-auto" />
+          </div>
         </div>
       </div>
     </section>

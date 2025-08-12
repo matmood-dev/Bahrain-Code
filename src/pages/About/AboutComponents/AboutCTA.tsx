@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function AboutCTA({ t }: TProp) {
   return (
     <section className="relative mx-auto max-w-7xl px-4 py-20 text-center">
@@ -7,21 +9,18 @@ export default function AboutCTA({ t }: TProp) {
       </div>
 
       <h2 className="text-3xl md:text-4xl font-extrabold">
-        {t("about.cta.title", "Let’s build your next product")}
+        {t("about.cta.title")}
       </h2>
       <p className="mt-3 text-[rgb(var(--muted))] mx-auto max-w-2xl">
-        {t(
-          "about.cta.subtitle",
-          "Whether it’s a web platform, a mobile app, or cloud infrastructure — we can help you ship faster with confidence."
-        )}
+        {t("about.cta.subtitle")}
       </p>
       <div className="mt-8 flex justify-center">
-        <a
-          href="#contact"
+        <Link
+          to="/contact"
           className="inline-flex items-center rounded-xl px-5 py-3 text-white bg-gradient-to-br from-brand-500 to-brand-700 shadow hover:opacity-95"
         >
-          {t("about.cta.button", "Contact us")}
-        </a>
+          {t("about.cta.button")}
+        </Link>
       </div>
     </section>
   );

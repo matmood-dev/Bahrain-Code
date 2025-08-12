@@ -2,27 +2,18 @@ export default function AboutTimeline({ t }: TProp) {
   const events = [
     {
       year: "2023",
-      title: t("about.timeline.2023.title", "Prototypes & pilots"),
-      desc: t(
-        "about.timeline.2023.desc",
-        "Shipped first production web and mobile pilots; hardened auth and RBAC."
-      ),
+      title: t("about.timeline.2023.title"),
+      desc: t("about.timeline.2023.desc"),
     },
     {
       year: "2024",
-      title: t("about.timeline.2024.title", "Scale & reliability"),
-      desc: t(
-        "about.timeline.2024.desc",
-        "Containerized services, CI/CD, monitoring, and zero-downtime releases."
-      ),
+      title: t("about.timeline.2024.title"),
+      desc: t("about.timeline.2024.desc"),
     },
     {
       year: "2025",
-      title: t("about.timeline.2025.title", "AI & automation"),
-      desc: t(
-        "about.timeline.2025.desc",
-        "Integrated AI features for search, insights, and workflow automation."
-      ),
+      title: t("about.timeline.2025.title"),
+      desc: t("about.timeline.2025.desc"),
     },
   ];
 
@@ -30,10 +21,10 @@ export default function AboutTimeline({ t }: TProp) {
     <section className="relative mx-auto max-w-7xl px-4 py-16">
       <div className="max-w-3xl mx-auto text-center">
         <span className="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium tracking-wide border border-white/10 bg-white/5">
-          {t("about.timeline.badge", "Timeline")}
+          {t("about.timeline.badge")}
         </span>
         <h2 className="mt-3 text-3xl md:text-4xl font-extrabold">
-          {t("about.timeline.title", "From proof to platform")}
+          {t("about.timeline.title")}
         </h2>
       </div>
 
