@@ -7,6 +7,8 @@ import ComingSoon from "./pages/ComingSoon";
 import Home from "./pages/Home";
 import About from "./pages/About/About";
 import Services from "./pages/Services/Services";
+import StartProject from "./pages/StartProject/StartProject";
+import Contact from "./pages/Contact/Contact";
 
 import { useTranslation } from "react-i18next";
 
@@ -20,6 +22,8 @@ export default function App() {
       <Route path="/" element={<Home t={t} />} />
       <Route path="/about" element={<About t={t} />} />
       <Route path="/services" element={<Services t={t} />} />
+      <Route path="/start" element={<StartProject />} />
+      <Route path="/contact" element={<Contact t={t} />} />
     </Routes>
   );
 }

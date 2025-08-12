@@ -4,7 +4,10 @@
     "nav": {
       "home": "Home",
       "about": "About",
-      "services": "Services"
+      "services": "Services",
+      "works": "Works",
+      "start-now": "Start Your Project",
+      "contact": "Contact Us"
     },
     "hero": {
       "title": "We build delightful Web & Mobile apps",
@@ -258,5 +261,84 @@
     "title": "Coming Soon",
     "subtitle": "We’re working hard to bring you something amazing. Stay tuned!",
     "backHome": "Back to Home"
+  },
+  "start": {
+    "badge": "Start a Project",
+    "title": "Tell us about your project",
+    "subtitle": "We’ll review your details and get back within 1–2 business days.",
+    "success": "Thanks! Your request has been received.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "company": "Company",
+      "website": "Website",
+      "services": "What services do you need?",
+      "budget": "Budget",
+      "timeline": "Timeline",
+      "brief": "Project brief",
+      "file": "Attach a file (optional)",
+      "consent": "I agree to be contacted about my request."
+    },
+    "placeholders": {
+      "name": "e.g., John Doe",
+      "company": "Your company",
+      "select": "Select…",
+      "brief": "What are you building? Who are the users? Any examples or must-have features?",
+      "file": "Choose file"
+    },
+    "hints": {
+      "selectService": "Select at least one service."
+    },
+    "actions": {
+      "submit": "Submit",
+      "sending": "Sending…"
+    },
+    "errors": {
+      "fillRequired": "Please fill the required fields.",
+      "submitFailed": "Submission failed. Please try again."
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let’s talk",
+    "subtitle": "Questions, quotes, or support — we’re here to help.",
+    "success": "Thanks! We’ll get back to you soon.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "topic": "Topic",
+      "message": "Message",
+      "file": "Attach a file (optional)",
+      "consent": "I agree to be contacted about my request."
+    },
+    "topics": {
+      "sales": "Sales",
+      "support": "Support",
+      "partnership": "Partnership",
+      "careers": "Careers",
+      "other": "Other"
+    },
+    "placeholders": {
+      "name": "e.g., John Doe",
+      "select": "Select…",
+      "message": "How can we help?",
+      "file": "Choose file"
+    },
+    "actions": {
+      "submit": "Send message",
+      "sending": "Sending…"
+    },
+    "errors": {
+      "fillRequired": "Please fill the required fields.",
+      "submitFailed": "Submission failed. Please try again."
+    },
+    "info": {
+      "title": "Reach us",
+      "subtitle": "Prefer email or phone? We’re available Sun–Thu.",
+      "address": "Manama, Kingdom of Bahrain",
+      "hours": "Sun–Thu • 9:00–17:00 (AST)"
+    }
   }
 }

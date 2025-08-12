@@ -20,6 +20,9 @@ export default function Navbar() {
     { to: "/", label: t("home.nav.home") },
     { to: "/about", label: t("home.nav.about") },
     { to: "/services", label: t("home.nav.services") },
+    { to: "/coming-soon", label: t("home.nav.works") },
+    { to: "/start", label: t("home.nav.start-now") },
+    { to: "/contact", label: t("home.nav.contact") },
   ];
 
   const linkBase =
