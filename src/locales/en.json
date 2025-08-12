@@ -3,10 +3,7 @@
     "brand": "Bahrain Code",
     "nav": {
       "home": "Home",
-      "services": "Services",
-      "work": "Work",
-      "blog": "Blog",
-      "contact": "Contact"
+      "about": "About"
     },
     "hero": {
       "title": "We build delightful Web & Mobile apps",
