@@ -1,7 +1,13 @@
 import DefaultLayout from "../../layouts/DefaultLayout";
 import { useParams, Link, Navigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Briefcase, MapPin, Clock, ArrowLeft, CheckCircle2 } from "lucide-react";
+import {
+  Briefcase,
+  MapPin,
+  Clock,
+  ArrowLeft,
+  CheckCircle2,
+} from "lucide-react";
 import { ROLES } from "./roles";
 
 export default function JobDetails({ t }: TProp) {
@@ -102,23 +108,13 @@ export default function JobDetails({ t }: TProp) {
 
           {/* Apply CTA */}
           <div className="mt-10 flex flex-col sm:flex-row gap-3">
-            {role.applyUrl ? (
-              <a
-                href={role.applyUrl}
-                className="inline-flex items-center gap-2 rounded-xl px-5 py-3 text-white bg-gradient-to-br from-brand-500 to-brand-700 shadow hover:opacity-95"
-              >
-                <Briefcase className="h-4 w-4" />
-                {t("careers.details.applyExternal", "Apply on ATS")}
-              </a>
-            ) : (
-              <Link
-                to={internalApplyHref}
-                className="inline-flex items-center gap-2 rounded-xl px-5 py-3 text-white bg-gradient-to-br from-brand-500 to-brand-700 shadow hover:opacity-95"
-              >
-                <Briefcase className="h-4 w-4" />
-                {t("careers.details.apply", "Apply now")}
-              </Link>
-            )}
+            <Link
+              to={internalApplyHref}
+              className="inline-flex items-center gap-2 rounded-xl px-5 py-3 text-white bg-gradient-to-br from-brand-500 to-brand-700 shadow hover:opacity-95"
+            >
+              <Briefcase className="h-4 w-4" />
+              {t("careers.details.apply", "Apply now")}
+            </Link>
             <Link
               to="/contact"
               target="_blank"
